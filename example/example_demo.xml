@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This is a fully fictitious SCL file created for testing and demonstration.
+  It mimics the complexity of a real IEC 61850 project but contains no actual data.
+-->
+<SCL xmlns="http://www.iec.ch/61850/2003/SCL">
+  <IED name="DemoIED_Long">
+    <AccessPoint name="AP1">
+      <Server>
+        <LDevice inst="LD_DEMO">
+          <LN0 lnClass="LLN0" inst="" lnType="lt_demo">
+            <DataSet name="DS_DEMO_1">
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do1" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do2" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do3" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do4" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do5" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do6" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do7" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="1" doName="Do8" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="2" doName="Do9" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="3" doName="Do10" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="4" doName="Do11" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="1" doName="Do12" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="2" doName="Do13" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="3" doName="Do14" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="4" doName="Do15" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="1" doName="Do16" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="2" doName="Do17" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="3" doName="Do18" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="4" doName="Do19" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="1" doName="Do20" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do21" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do22" daName="stVal" fc="SP"/>
+            </DataSet>
+            <DataSet name="DS_DEMO_2">
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do23" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do24" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do25" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do26" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do27" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="1" doName="Do28" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="2" doName="Do29" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="3" doName="Do30" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="4" doName="Do31" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="1" doName="Do32" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="2" doName="Do33" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="3" doName="Do34" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="4" doName="Do35" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="1" doName="Do36" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="2" doName="Do37" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="3" doName="Do38" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="4" doName="Do39" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="1" doName="Do40" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do41" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do42" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do43" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do44" daName="stVal" fc="ST"/>
+            </DataSet>
+            <DataSet name="DS_DEMO_3">
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do45" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do46" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do47" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="1" doName="Do48" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="2" doName="Do49" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="3" doName="Do50" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="4" doName="Do51" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="1" doName="Do52" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="2" doName="Do53" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="3" doName="Do54" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="4" doName="Do55" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="1" doName="Do56" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="2" doName="Do57" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="3" doName="Do58" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="4" doName="Do59" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="1" doName="Do60" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do61" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do62" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do63" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do64" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do65" daName="mag" fc="MX"/>
+            </DataSet>
+            <DataSet name="DS_DEMO_4">
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do66" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do67" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="1" doName="Do68" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="2" doName="Do69" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="3" doName="Do70" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="4" doName="Do71" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="1" doName="Do72" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="2" doName="Do73" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="3" doName="Do74" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="4" doName="Do75" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="1" doName="Do76" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="2" doName="Do77" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="3" doName="Do78" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="4" doName="Do79" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="1" doName="Do80" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do81" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do82" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do83" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do84" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do85" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do86" daName="stVal" fc="SP"/>
+            </DataSet>
+            <DataSet name="DS_DEMO_5">
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do87" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="1" doName="Do88" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="2" doName="Do89" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="3" doName="Do90" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="4" doName="Do91" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="1" doName="Do92" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="2" doName="Do93" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="3" doName="Do94" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="4" doName="Do95" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="1" doName="Do96" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="2" doName="Do97" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="3" doName="Do98" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="4" doName="Do99" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="1" doName="Do100" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="2" doName="Do101" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="3" doName="Do102" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="CSWI" lnInst="4" doName="Do103" daName="mag" fc="CO"/>
+              <FCDA ldInst="LD_DEMO" lnClass="LPHD" lnInst="1" doName="Do104" daName="stVal" fc="ST"/>
+              <FCDA ldInst="LD_DEMO" lnClass="MMXU" lnInst="2" doName="Do105" daName="mag" fc="MX"/>
+              <FCDA ldInst="LD_DEMO" lnClass="PTOC" lnInst="3" doName="Do106" daName="stVal" fc="SP"/>
+              <FCDA ldInst="LD_DEMO" lnClass="GGIO" lnInst="4" doName="Do107" daName="mag" fc="CO"/>
+            </DataSet>
+          </LN0>
+        </LDevice>
+      </Server>
+    </AccessPoint>
+  </IED>
+</SCL>
